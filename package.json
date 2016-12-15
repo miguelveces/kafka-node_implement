@@ -1,0 +1,25 @@
+{
+  "name": "operationaleventsandbox-node",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "dependencies": {
+    "@types/kafka-node": "^0.2.34",
+    "@types/promptly": "^1.1.28",
+    "body-parser": "~1.15.2",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.2.0",
+    "ejs": ">= 0.5.0",
+    "express": "^4.14.0",
+    "jade": "~1.11.0",
+    "kafka-node": "^1.0.7",
+    "kafka-rest": "latest",
+    "morgan": "~1.7.0",
+    "serve-favicon": "~2.3.0"
+  },
+  "devDependencies": {
+    "retyped-kafka-node-tsd-ambient": "^0.2.22-0"
+  }
+}
